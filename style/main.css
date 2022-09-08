@@ -121,17 +121,22 @@ a {
 ul {
   list-style: none;
 }
+.btn {
+    padding: 1em 2em;
+    border-radius:  30px;
+    margin: 1em;
+}
 /*END GLOBAL STYLES*/
 /*Hero*/
 .hero{
-  background-color: #CCB4CB;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23CCB4CB' width='11' height='11'/%3E%3Crect fill='%23ceb4cb' x='10' width='11' height='11'/%3E%3Crect fill='%23d0b5cb' y='10' width='11' height='11'/%3E%3Crect fill='%23d2b5cb' x='20' width='11' height='11'/%3E%3Crect fill='%23d4b6cb' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23d6b6cb' y='20' width='11' height='11'/%3E%3Crect fill='%23d8b7ca' x='30' width='11' height='11'/%3E%3Crect fill='%23dab7ca' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23dcb8ca' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23deb8c9' y='30' width='11' height='11'/%3E%3Crect fill='%23e0b9c9' x='40' width='11' height='11'/%3E%3Crect fill='%23e2b9c9' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23e4bac8' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23e6bac8' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23e7bbc7' y='40' width='11' height='11'/%3E%3Crect fill='%23e9bcc6' x='50' width='11' height='11'/%3E%3Crect fill='%23ebbcc6' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23ecbdc5' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23eebdc4' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23efbec4' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23f0bfc3' y='50' width='11' height='11'/%3E%3Crect fill='%23f2c0c2' x='60' width='11' height='11'/%3E%3Crect fill='%23f3c0c2' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23f4c1c1' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23f5c2c0' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23f6c3bf' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23f7c4bf' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23f8c5be' x='70' width='11' height='11'/%3E%3Crect fill='%23f9c6bd' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23fac7bc' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23fac8bc' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23fbc9bb' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23fccaba' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23fccbba' x='80' width='11' height='11'/%3E%3Crect fill='%23fcccb9' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23fdcdb8' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23fdceb8' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23fdd0b7' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23fdd1b7' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23fdd2b6' x='90' width='11' height='11'/%3E%3Crect fill='%23fdd3b6' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23fdd5b6' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23fdd6b5' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23fcd7b5' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23fcd9b5' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23fcdab5' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23fbdbb5' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23faddb5' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23fadeb5' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23f9dfb5' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23f8e1b5' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23f7e2b5' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23f6e4b6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23f5e5b6' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23f4e7b7' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23f3e8b7' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23f2eab8' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23f1ebb9' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23efedba' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #f38f00;
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23f7b200' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 background-attachment: fixed;
 background-size: cover;
 height: 90vh;
 }
 .logo img {
-  height: 30px;
+  height: 50px;
 }
 header{
   max-width: 1200px;
@@ -146,6 +151,89 @@ nav ul {
 }
 nav a{
   margin-left: 1em;
-  color: black;
+  color: white;
+}
+.hero-slogan {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.hero-slogan h1 {
+  font-weight: 600;
+  font-size: 8em;
+  margin-bottom: -22px;
+  color: white;
+}
+.hero-slogan p{
+  font-size: 3em;
+  color: white;
+
 }
 /*END HERO STYLES*/
+/*Intro section*/
+.intro {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/assets/backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 8em 0;
+  height: 800px;
+  color: white;
+}
+.svg-circle img {
+  height: 10em;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.intro-box {
+  text-align: center;
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-copy h2 {
+  margin-top: 0;
+
+}
+.btn-primary {
+  background-color: #F59D00;
+  color: white;
+}
+.btn-secondary {
+  border: 3px solid white;
+  color: white;
+}
+.intro-btn{
+  padding: 3em;
+}
+.services-box a{
+  opacity: 0.5;
+  color: black;
+}
+/*End section*/
+/*Services style*/
+.services {
+  display:flex;
+  justify-content: center;
+}
+.services-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.services-box{
+  max-width: 500px;
+}
+
+/*End sections
