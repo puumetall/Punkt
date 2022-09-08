@@ -129,14 +129,13 @@ ul {
 /*END GLOBAL STYLES*/
 /*Hero*/
 .hero{
-  background-color: #f38f00;
-background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23f7b200' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1029%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 151%2c 65%2c 1)'%3e%3c/rect%3e%3cpath d='M1512 560L0 560 L0 372.73Q62.25 314.98%2c 120 377.23Q131.29 316.52%2c 192 327.81Q235.72 251.53%2c 312 295.25Q406.11 269.36%2c 432 363.47Q457.82 317.29%2c 504 343.11Q518.76 285.87%2c 576 300.63Q649.67 254.3%2c 696 327.97Q747.79 259.76%2c 816 311.56Q904.86 280.41%2c 936 369.27Q959.89 321.16%2c 1008 345.06Q1035.5 300.56%2c 1080 328.05Q1119.94 247.99%2c 1200 287.93Q1244.38 260.31%2c 1272 304.68Q1367.66 280.35%2c 1392 376.01Q1406.75 270.76%2c 1512 285.52z' fill='rgba(255%2c 119%2c 7%2c 1)'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 431.77Q26.06 337.83%2c 120 363.88Q192.26 316.14%2c 240 388.4Q282.48 358.88%2c 312 401.35Q357.57 326.93%2c 432 372.5Q458.93 327.43%2c 504 354.36Q594.6 324.96%2c 624 415.55Q692.01 363.56%2c 744 431.58Q759.63 375.2%2c 816 390.83Q865.23 320.05%2c 936 369.28Q994.75 356.02%2c 1008 414.77Q1056.49 391.26%2c 1080 439.76Q1092.84 380.6%2c 1152 393.43Q1198.39 367.82%2c 1224 414.21Q1297.94 368.15%2c 1344 442.09Q1364.53 342.62%2c 1464 363.15z' fill='rgba(251%2c 127%2c 25%2c 1)'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 446.97Q64.77 439.75%2c 72 504.52Q100.08 460.6%2c 144 488.68Q161.44 434.13%2c 216 451.57Q267.14 382.71%2c 336 433.85Q410.42 388.27%2c 456 462.7Q482.8 417.5%2c 528 444.3Q616.05 412.35%2c 648 500.39Q675.33 455.72%2c 720 483.04Q763.9 406.95%2c 840 450.85Q861.41 400.26%2c 912 421.68Q994.58 384.25%2c 1032 466.83Q1115.03 429.86%2c 1152 512.88Q1172.47 461.36%2c 1224 481.83Q1270.11 407.94%2c 1344 454.04Q1373.41 411.45%2c 1416 440.86Q1466.47 419.33%2c 1488 469.8z' fill='rgba(246%2c 134%2c 41%2c 1)'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 533.91Q57.39 471.3%2c 120 528.69Q185.22 521.91%2c 192 587.14Q217.69 492.83%2c 312 518.51Q366.43 452.94%2c 432 507.37Q513.68 469.05%2c 552 550.73Q560.33 487.06%2c 624 495.38Q666.12 465.5%2c 696 507.62Q788.78 480.4%2c 816 573.19Q837.77 522.97%2c 888 544.74Q955.89 492.63%2c 1008 560.52Q1050.74 483.26%2c 1128 526.01Q1197.86 475.87%2c 1248 545.73Q1285.78 463.51%2c 1368 501.29Q1420.98 482.27%2c 1440 535.26Q1501.15 524.41%2c 1512 585.57z' fill='rgba(255%2c 151%2c 65%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1029'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 background-attachment: fixed;
 background-size: cover;
-height: 90vh;
+height: 100vh;
 }
 .logo img {
-  height: 50px;
+  height: 80px;
 }
 header{
   max-width: 1200px;
@@ -156,7 +155,7 @@ nav a{
 .hero-slogan {
   width: 1440px;
   margin: 0 auto;
-  padding: 1em 2em;
+  padding: 1em 10em 10em;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -205,25 +204,44 @@ nav a{
 
 }
 .btn-primary {
-  background-color: #F59D00;
+  background-color: #FF9741;
   color: white;
+  border: 1px solid #FF9741;
+}
+.btn-primary:hover{
+  background-color: #f38428;
+  border: none;
 }
 .btn-secondary {
   border: 3px solid white;
   color: white;
 }
+.btn-secondary:hover{
+  background-color: white;
+  color: #FF9741;
+  border: none;
+  transform: scale(2);
+}
 .intro-btn{
   padding: 3em;
 }
-.services-box a{
-  opacity: 0.5;
-  color: black;
-}
+
 /*End section*/
 /*Services style*/
 .services {
   display:flex;
   justify-content: center;
+  position: relative;
+  padding: 4em 0;
+}
+.services-copy {
+  margin-bottom: 6em;
+}
+.services-copy a {
+  margin: 2em 0;
+}
+.services-copy p {
+  margin-bottom: 3em;
 }
 .services-grid{
   display: grid;
@@ -233,7 +251,66 @@ nav a{
   grid-row-gap: 0px;
 }
 .services-box{
-  max-width: 500px;
+  max-width: 440px;
+}
+.services-info {
+  margin-left: 30em;
+}
+.services-pic{
+  display: flex;
+  position: absolute;
+  left: 40px;
+}
+.services-pic img{
+  width: 40em;
+  height: auto;
+}
+.services-box a{
+  opacity: 0.5;
+  color: black;
+}
+.services-box hr {
+  background-color: #FF9741;
+  height: 3px;
+  border: none;
+  width: 20px;
+  margin: 0;
+  transition: 0.2s;
+}
+#details:hover ~ #services-hr {
+  width: 100px;
 }
 
 /*End sections
+/*Client styles*/
+.clients {
+  width: 1440px;
+  margin: 0 auto;
+}
+.clients-copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clients-logos {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 480px;
+grid-row-gap: 100px;
+}
+.clients-logos img {
+  height: 10em;
+}
+.clients a {
+  color: black;
+}
+.clients hr {
+  background-color: #FF9741;
+  height: 3px;
+  border: none;
+  width: 20px;
+  margin: 0;
+  transition: 0.2s;
+}
+/*End sections*/
