@@ -73,9 +73,11 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-/*END RESET*/
+/*End Reset*/
 /*Typo*/
+html, body{
+  overflow-x: hidden;
+}
 @import url('https://fonts.googleapis.com/css?family=MuseoModerno:400');
 
 html {font-size: 100%;} /*16px*/
@@ -172,6 +174,12 @@ nav a{
   font-size: 3em;
   color: white;
 
+}
+.dropdown {
+  display: none;
+}
+.hero nav {
+  display: block;
 }
 /*END HERO STYLES*/
 /*Intro section*/
@@ -314,3 +322,104 @@ grid-row-gap: 100px;
   transition: 0.2s;
 }
 /*End sections*/
+/*Responsive media queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*Fonts*/
+  .hero-slogan h1 {
+    font-size: 4em;
+  }
+  .hero-slogan p {
+    font-size: 1.7em;
+  }
+  /*End Fonts*/
+  header {
+    width: auto;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .hero-slogan {
+    margin-bottom: 0;
+    padding: 1em 1em 1em;
+    height: 50%;
+  }
+  .logo{
+    margin-left: -1em;
+  }
+  .services-info{
+    margin: 10px;
+  }
+  .services-pic{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }
+  .services-pic img{
+    width: 20em;
+  }
+  .hero nav {
+    display: none;
+  }
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  background: none;
+  }
+  .dropdown-button{
+    border: none;
+    background: none;
+  }
+  .dropdown-button img{
+    width: 3em
+  }
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .intro {
+    height: 100%;
+    padding: 2em 0.5em;
+  }
+  .container {
+    width: auto;
+    margin: 0;
+  }
+  .intro-btn{
+    display: flex;
+  }
+  .services-grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-info{
+    margin: 10px;
+  }
+  .clients{
+    width: auto;
+  }
+  .clients-copy {
+    flex-direction: column;
+    padding: 0.5em;
+    align-items: flex-start;
+  }
+  .clients-logos{
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
+  .clients-logos img{
+    width: 5em;
+    height: auto;
+  }
+}
+
+/*End section*/
